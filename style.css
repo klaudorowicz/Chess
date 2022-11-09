@@ -34,6 +34,9 @@ a {
   background: repeating-conic-gradient(rgb(95, 119, 8, 0.3) 0% 25%, transparent 0% 50%);
   background-size: 80px 80px;
   min-height: 120px;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .header .empty{
@@ -43,11 +46,13 @@ a {
 .header h1 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   font-size: 50px;
+  flex: 0 15;
 }
 
 .header img {
-  height: 120px;
+  max-height: 120px;
   align-self: flex-end;
+  overflow: hidden;
 }
 
 
@@ -179,6 +184,9 @@ a {
 @media screen and (max-width: 700px) {
   .lastPosts .container {
     grid-template-columns: 1fr;
+  }
+  .lastPosts {
+    padding: 5vw;
   }
 }
 
