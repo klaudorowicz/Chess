@@ -23,13 +23,16 @@ a {
 
 /* HEADER */
 
+.head {
+  background: linear-gradient(#506408, #99c00b 70%); 
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(#5f7708, #99c00b); 
-  /* background: repeating-conic-gradient(#5f7708 0% 25%, #99c00b 0% 50%);
-  background-size: 30px 30px; */
+  background: repeating-conic-gradient(rgb(95, 119, 8, 0.3) 0% 25%, transparent 0% 50%);
+  background-size: 80px 80px;
   min-height: 120px;
 }
 
@@ -196,7 +199,7 @@ a {
 /* SECTION4 */
 
 .contact {
-  background: linear-gradient(#a76400, #e6ad63);
+  background: linear-gradient(#e6ad63, #a76400);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -231,7 +234,7 @@ a {
   font-weight: bold;
   color: rgba(255, 255, 225, 0.95);
   background-color: #683f01;
-  box-shadow: 5px 5px 5px #492c01;
+  box-shadow: 5px 5px 3px #492c01;
 }
 
 .contact button:active {
@@ -239,7 +242,7 @@ a {
   color: rgb(255, 255, 225, 0.7);
   border: 1px solid rgb(0, 0, 0, 0.5);
   transform: translateY(2px);
-  box-shadow: 3px 3px 5px black;
+  box-shadow: 3px 3px 3px black;
 }
 
 /* FOOTER */
@@ -266,7 +269,7 @@ font-size: 20px;
 
 /* BEAUTIFUL ICON */
 .footer .icon-whatsapp:hover {
-  background: -webkit-linear-gradient(#128C7E, #075E54, #25D366 30%, #25D366 60%, #34B7F1 100%);
+  background: -webkit-linear-gradient(#075E54, #25D366 20%, #25D366 60%, #34B7F1 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
