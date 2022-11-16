@@ -51,10 +51,14 @@ a {
 
 .header img {
   max-height: 120px;
+
+}
+
+.header .image {
+  max-height: 120px;
   align-self: flex-end;
   overflow: hidden;
 }
-
 
 /* NAVIGATION */
 
@@ -244,6 +248,13 @@ a {
   background-color: #683f01;
   box-shadow: 5px 5px 3px #492c01;
 }
+
+/* for firefox browser */
+@-moz-document url-prefix() {
+  .contact button {
+    margin-right: 20px;
+  }
+}  
 
 .contact button:active {
   background-color: rgba(106, 64, 1, 0.7);
